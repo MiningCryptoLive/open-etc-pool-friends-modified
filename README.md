@@ -6,9 +6,6 @@
 
 ### Features
 
-### Email: office.poolnode@gmail.com
-
-### [YouTube](https://www.youtube.com/channel/UCeSEGwWB8LWtu7BM8OpH6yA).
 
 
 **This pool is being further developed to provide an easy to use pool for Ethereum Classic / Ubiq & Ethereum miners. Testing and bug submissions are welcome!**
