@@ -1,0 +1,13 @@
+[Service]
+Description=node
+After=network-online.target
+
+[Service]
+ExecStart=/path/to/core/geth --classic --cache="4096" --datadir="path/to/data/dir" --keystore="/path/to/keystore/" --allow-insecure-unlock --unlock="your-pool-address" --password="/path/to/password/file" --identity="your pool" --http --http.addr="127.0.0.1" --http.api="eth,net,web3,txpool" --maxpeers="100" --mine --miner.etherbase="your-pool-address"
+
+User=your-user-name
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
