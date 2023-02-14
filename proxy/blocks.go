@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	//"github.com/ubiq/go-ubiq/common" false
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/etclabscore/core-geth/common"
 	"github.com/yuriy0803/open-etc-pool-friends/rpc"
 	"github.com/yuriy0803/open-etc-pool-friends/util"
 )
